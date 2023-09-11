@@ -1,5 +1,5 @@
 const express=require('express');
-const { ProductModel } = require('./models/Product.model');
+const { ProductModel } = require('./Models/Product.Model');
 const { connection } = require('./Configs/db');
 const cors=require('cors');
 require('dotenv').config();
